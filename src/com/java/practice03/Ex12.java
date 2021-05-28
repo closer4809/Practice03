@@ -9,12 +9,16 @@ public class Ex12 {
 
 		Scanner sc = new Scanner(System.in);
 		System.out.println("숫자를 입력하세요");
-		int a = sc.hashCode();
+		int a = sc.nextInt();
 		
+		int c = 1;
 		
-		for(int x=a-1; x>0; x--) {
-			System.out.println(a+x);
+		for(int b=1; b <=a; b++) {
+			
+			c = c*(1*b);
 		}
+		System.out.print("결과값 : "+c);
+		
 		
 		
 		

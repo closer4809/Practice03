@@ -19,8 +19,8 @@ public class Ex18 {
 			System.out.println("");
 		}
 		
-		for(int z=1; z<=a-1; z++) {
-			for(int c=z; c<z; c++) {
+		for(int z=2; z<=a; z++) {
+			for(int c=z; c<=a; c++) {
 				System.out.print("*");
 			}
 			System.out.println("");
@@ -28,7 +28,6 @@ public class Ex18 {
 		
 		
 		sc.close();
-	
 	}
 
 }
